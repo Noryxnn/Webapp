@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+
+li{
+    float:left;
+    padding-left: 30px;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    color: red;
+    font-size: large;
+
+}
+
+h1:hover{
+    color:red;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a{
+    color: black ;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.modal-header h1 {
+    color: black;
+}
+
+
+h1{
+    font-size: x-large;
+}
+
+
+ul {
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px 20px;
+    border-radius: 8px;
+    list-style: none; /* Remove default bullet points */
+    display: flex;
+    gap: 20px; /* Add space between items */
+    justify-content: flex-start; /* Align items to the left */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+ul li {
+    display: inline; /* Ensure list items are horizontal */
+}
+
+ul li a {
+    font-size: 18px;
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Style for the login link */
+ul li a.nav-link {
+    margin-left: auto; /* Pushes the login link to the right */
+    color: #555;
+}
+
+ul li a.nav-link:hover {
+    color: #007bff; /* Change text color on hover for login */
+}
+
+.product-list {
+    display: none; /* Hide products by default */
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #000; /* Or use bg-dark class */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.map-container {
+    margin-top: 20px; /* Add some spacing above the map */
+    text-align: center; /* Center the iframe */
+}
+
