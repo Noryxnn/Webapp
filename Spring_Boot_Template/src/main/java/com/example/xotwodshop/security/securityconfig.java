@@ -12,13 +12,13 @@ public class securityconfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(authorize -> authorize
-                        .requestMatchers("/", "/login").permitAll() // Allow public access to homepage and login
+                        .requestMatchers("/", "/login").permitAll() 
                 )
                 .formLogin(form -> form
-                        .loginPage("/login")                       // Use custom login page
+                        .loginPage("/login")                      
                         .permitAll()
                 )
-                .logout(logout -> logout.permitAll());         // Allow logout for all users
+                .logout(logout -> logout.permitAll());  
 
         return http.build();
     }
